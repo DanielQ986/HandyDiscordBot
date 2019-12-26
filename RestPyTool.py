@@ -8,10 +8,7 @@ load_dotenv()
 TOKEN = os.getenv('DISCORD_TOKEN')
 GUILD = os.getenv('DISCORD_GUILD')
 
-
 bot = commands.Bot(command_prefix='?')
-
-
 
 @bot.command(name='speak', help='say nigga')
 async def speak(ctx):
